@@ -113,7 +113,8 @@ class ProductDetailApiView(GenericAPIView):
             return Response("Data not found")
         product_obj.delete()
         return Response('Data Deleted')
-    
+    def name():
+        pass
         
 
 
