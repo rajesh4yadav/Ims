@@ -48,6 +48,11 @@ class Customer(models.Model):
     name  = models.CharField(max_length=300)
     number = models.IntegerField()
     email  = models.EmailField(unique=True)
+
+class Vendor(models.Model):
+    name = models.CharField(max_length=300)
+    phone_number = models.IntegerField()
+    email = models.EmailField()
     
 
 
